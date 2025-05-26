@@ -1,0 +1,10 @@
+logging:
+  level:
+    com:
+      petclinic: DEBUG
+spring:
+  devtools:
+    livereload:
+      enabled: true
+    restart:
+      enabled: true
