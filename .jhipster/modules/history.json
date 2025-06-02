@@ -1604,6 +1604,21 @@
         "keycloakClientScopeName": "jhipetclinic",
         "keycloakRealmName": "jhipetclinic"
       }
+    },
+    {
+      "module": "springdoc-mvc-openapi",
+      "date": "2025-06-02T08:24:28.809267253Z",
+      "properties": {
+        "projectName": "jhipetclinic",
+        "baseName": "jhipetclinic",
+        "endOfLine": "lf",
+        "indentSize": 2,
+        "packageName": "com.petclinic",
+        "serverPort": 8080,
+        "springConfigurationFormat": "yaml",
+        "keycloakClientScopeName": "jhipetclinic",
+        "keycloakRealmName": "jhipetclinic"
+      }
     }
   ]
 }
