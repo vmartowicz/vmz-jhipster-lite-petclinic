@@ -11,7 +11,6 @@ import com.petclinic.shared.authentication.domain.Username;
 import com.petclinic.shared.error.domain.MissingMandatoryValueException;
 import java.util.List;
 import java.util.stream.Stream;
-import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -26,8 +25,7 @@ class JhipetclinicAuthorizationsTest {
   private static final JhipetclinicAuthorizations authorizations = new JhipetclinicAuthorizations(List.of(rolesAccesses()));
 
   @Nested
-  @DisplayName("All authorized")
-  class AllAuthorizedTest {
+  class AllAuthorized {
 
     @Test
     void shouldNotBeAuthorizedWithoutAuthentication() {
@@ -61,8 +59,7 @@ class JhipetclinicAuthorizationsTest {
   }
 
   @Nested
-  @DisplayName("Get username")
-  class GetUsernameTest {
+  class GetUsername {
 
     @Test
     void shouldNotGetNotAuthenticatedUserUsername() {
@@ -102,8 +99,7 @@ class JhipetclinicAuthorizationsTest {
   }
 
   @Nested
-  @DisplayName("Specific authorized")
-  class SpecificAuthorizedTest {
+  class SpecificAuthorized {
 
     @Test
     void shouldNotBeAuthorizedWithoutAuthentication() {
