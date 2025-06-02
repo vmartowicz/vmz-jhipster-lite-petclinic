@@ -40,5 +40,6 @@ npm install
 - [Package types](documentation/package-types.md)
 - [Assertions](documentation/assertions.md)
 - [sonar](documentation/sonar.md)
+- [Vue](documentation/vue.md)
 
 <!-- jhipster-needle-documentation -->
