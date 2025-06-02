@@ -108,6 +108,6 @@ springdoc:
     tryItOutEnabled: true
     oauth:
       client-id: web_app
-      realm: jhipster
+      realm: jhipetclinic
   oauth2:
-    authorization-url: http://localhost:9080/realms/jhipster/protocol/openid-connect/auth
+    authorization-url: http://localhost:9080/realms/jhipetclinic/protocol/openid-connect/auth
