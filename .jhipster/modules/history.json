@@ -1304,6 +1304,21 @@
         "keycloakClientScopeName": "jhipetclinic",
         "keycloakRealmName": "jhipetclinic"
       }
+    },
+    {
+      "module": "java-enums",
+      "date": "2025-06-02T08:22:01.864614419Z",
+      "properties": {
+        "projectName": "jhipetclinic",
+        "baseName": "jhipetclinic",
+        "endOfLine": "lf",
+        "indentSize": 2,
+        "packageName": "com.petclinic",
+        "serverPort": 8080,
+        "springConfigurationFormat": "yaml",
+        "keycloakClientScopeName": "jhipetclinic",
+        "keycloakRealmName": "jhipetclinic"
+      }
     }
   ]
 }
