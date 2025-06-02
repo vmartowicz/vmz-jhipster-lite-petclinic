@@ -1,6 +1,6 @@
 package com.petclinic.infrastrucutre.secondary.repository;
 
-import com.petclinic.domain.PetTypeRepository;
+import com.petclinic.domain.PetTypesRepository;
 import com.petclinic.domain.pettype.PetType;
 import com.petclinic.domain.pettype.PetTypeId;
 import com.petclinic.domain.pettype.PetTypes;
@@ -12,11 +12,11 @@ import java.util.stream.Collectors;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public class PetTypeRepositoryImpl implements PetTypeRepository {
+public class PetTypesRepositoryImpl implements PetTypesRepository {
 
   private final PetTypeJpaRepository pettypes;
 
-  public PetTypeRepositoryImpl(PetTypeJpaRepository pettypes) {
+  public PetTypesRepositoryImpl(PetTypeJpaRepository pettypes) {
     this.pettypes = pettypes;
   }
 

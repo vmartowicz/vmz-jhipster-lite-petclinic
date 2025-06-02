@@ -10,12 +10,12 @@ import org.springframework.transaction.annotation.Transactional;
 @Transactional
 public class PetClinicApplicationService {
 
-  private final PetTypeRepository pettypes;
+  private final PetTypesRepository pettypes;
   private final PetTypesCreator creator;
   private final PetTypesRemover remover;
 
-  public PetClinicApplicationService(PetTypeRepository petTypeRepository) {
-    this.pettypes = petTypeRepository;
+  public PetClinicApplicationService(PetTypesRepository petTypesRepository) {
+    this.pettypes = petTypesRepository;
     creator = new PetTypesCreator(pettypes);
     remover = new PetTypesRemover(pettypes);
   }

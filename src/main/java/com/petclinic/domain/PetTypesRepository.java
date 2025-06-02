@@ -5,7 +5,7 @@ import com.petclinic.domain.pettype.PetTypeId;
 import com.petclinic.domain.pettype.PetTypes;
 import java.util.Optional;
 
-public interface PetTypeRepository {
+public interface PetTypesRepository {
   PetTypes findAll();
 
   PetType save(PetType petType);

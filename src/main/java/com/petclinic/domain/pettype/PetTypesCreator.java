@@ -1,13 +1,13 @@
 package com.petclinic.domain.pettype;
 
-import com.petclinic.domain.PetTypeRepository;
+import com.petclinic.domain.PetTypesRepository;
 import com.petclinic.shared.error.domain.Assert;
 
 public class PetTypesCreator {
 
-  private final PetTypeRepository pettypes;
+  private final PetTypesRepository pettypes;
 
-  public PetTypesCreator(PetTypeRepository pettypes) {
+  public PetTypesCreator(PetTypesRepository pettypes) {
     Assert.notNull("beers", pettypes);
 
     this.pettypes = pettypes;
