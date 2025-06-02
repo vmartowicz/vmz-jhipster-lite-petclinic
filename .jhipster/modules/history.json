@@ -1664,6 +1664,21 @@
         "keycloakClientScopeName": "jhipetclinic",
         "keycloakRealmName": "jhipetclinic"
       }
+    },
+    {
+      "module": "spring-boot-cucumber-oauth2-authentication",
+      "date": "2025-06-02T08:24:47.659516807Z",
+      "properties": {
+        "projectName": "jhipetclinic",
+        "baseName": "jhipetclinic",
+        "endOfLine": "lf",
+        "indentSize": 2,
+        "packageName": "com.petclinic",
+        "serverPort": 8080,
+        "springConfigurationFormat": "yaml",
+        "keycloakClientScopeName": "jhipetclinic",
+        "keycloakRealmName": "jhipetclinic"
+      }
     }
   ]
 }
