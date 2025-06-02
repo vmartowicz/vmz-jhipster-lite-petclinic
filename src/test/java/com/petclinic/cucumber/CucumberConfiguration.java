@@ -4,7 +4,6 @@ import com.petclinic.JhipetclinicApp;
 import com.petclinic.cucumber.CucumberConfiguration.CucumberRestTemplateConfiguration;
 import com.petclinic.cucumber.rest.CucumberRestTemplate;
 import com.petclinic.cucumber.rest.CucumberRestTestContext;
-import com.petclinic.shared.authentication.infrastructure.primary.TestSecurityConfiguration;
 import io.cucumber.java.Before;
 import io.cucumber.spring.CucumberContextConfiguration;
 import java.nio.charset.StandardCharsets;
@@ -25,15 +24,7 @@ import org.springframework.web.client.RestTemplate;
 
 @ActiveProfiles("test")
 @CucumberContextConfiguration
-@SpringBootTest(
-  classes = {
-    JhipetclinicApp.class,
-    TestSecurityConfiguration.class,
-    CucumberAuthenticationConfiguration.class,
-    CucumberRestTemplateConfiguration.class,
-  },
-  webEnvironment = WebEnvironment.RANDOM_PORT
-)
+@SpringBootTest(classes = { JhipetclinicApp.class, CucumberRestTemplateConfiguration.class }, webEnvironment = WebEnvironment.RANDOM_PORT)
 public class CucumberConfiguration {
 
   private final TestRestTemplate rest;
