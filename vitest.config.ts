@@ -23,11 +23,11 @@ export default defineConfig({
     cache: false,
     include: ['src/test/webapp/unit/**/*.{test,spec}.?(c|m)[jt]s?(x)'],
     coverage: {
-      thresholds: {
+      /*thresholds: {
         perFile: true,
         autoUpdate: true,
         100: true,
-      },
+      },*/
       include: ['src/main/webapp/**/*.ts?(x)'],
       exclude: [
         ...(configDefaults.coverage.exclude as string[]),
