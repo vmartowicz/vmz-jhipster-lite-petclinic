@@ -1814,6 +1814,21 @@
         "keycloakClientScopeName": "jhipetclinic",
         "keycloakRealmName": "jhipetclinic"
       }
+    },
+    {
+      "module": "front-hexagonal-architecture",
+      "date": "2025-06-07T17:11:19.525880359Z",
+      "properties": {
+        "projectName": "jhipetclinic",
+        "baseName": "jhipetclinic",
+        "endOfLine": "lf",
+        "indentSize": 2,
+        "packageName": "com.petclinic",
+        "serverPort": 8080,
+        "springConfigurationFormat": "yaml",
+        "keycloakClientScopeName": "jhipetclinic",
+        "keycloakRealmName": "jhipetclinic"
+      }
     }
   ]
 }
