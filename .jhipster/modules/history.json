@@ -2340,6 +2340,22 @@
         "keycloakRealmName": "jhipetclinic",
         "nodePackageManager": "npm"
       }
+    },
+    {
+      "module": "java-memoizers",
+      "date": "2025-07-09T20:54:31.385936008Z",
+      "properties": {
+        "projectName": "jhipetclinic",
+        "baseName": "jhipetclinic",
+        "endOfLine": "lf",
+        "indentSize": 2,
+        "packageName": "com.petclinic",
+        "serverPort": 8080,
+        "springConfigurationFormat": "yaml",
+        "keycloakClientScopeName": "jhipetclinic",
+        "keycloakRealmName": "jhipetclinic",
+        "nodePackageManager": "npm"
+      }
     }
   ]
 }
