@@ -74,7 +74,9 @@ class JhipetclinicPageTest {
 
   @Test
   void shouldMapPage() {
-    JhipetclinicPage<String> page = pageBuilder().build().map(entry -> "hey");
+    JhipetclinicPage<String> page = pageBuilder()
+      .build()
+      .map(entry -> "hey");
 
     assertThat(page.content()).containsExactly("hey");
     assertThat(page.currentPage()).isEqualTo(2);
