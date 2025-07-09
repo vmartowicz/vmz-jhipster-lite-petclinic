@@ -2740,6 +2740,22 @@
         "keycloakRealmName": "jhipetclinic",
         "nodePackageManager": "npm"
       }
+    },
+    {
+      "module": "spring-boot-cucumber-jpa-reset",
+      "date": "2025-07-09T20:55:25.508486855Z",
+      "properties": {
+        "projectName": "jhipetclinic",
+        "baseName": "jhipetclinic",
+        "endOfLine": "lf",
+        "indentSize": 2,
+        "packageName": "com.petclinic",
+        "serverPort": 8080,
+        "springConfigurationFormat": "yaml",
+        "keycloakClientScopeName": "jhipetclinic",
+        "keycloakRealmName": "jhipetclinic",
+        "nodePackageManager": "npm"
+      }
     }
   ]
 }
