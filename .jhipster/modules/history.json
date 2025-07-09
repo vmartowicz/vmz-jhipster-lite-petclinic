@@ -2244,6 +2244,22 @@
         "keycloakRealmName": "jhipetclinic",
         "nodePackageManager": "npm"
       }
+    },
+    {
+      "module": "jacoco-with-min-coverage-check",
+      "date": "2025-07-09T20:54:07.088578957Z",
+      "properties": {
+        "projectName": "jhipetclinic",
+        "baseName": "jhipetclinic",
+        "endOfLine": "lf",
+        "indentSize": 2,
+        "packageName": "com.petclinic",
+        "serverPort": 8080,
+        "springConfigurationFormat": "yaml",
+        "keycloakClientScopeName": "jhipetclinic",
+        "keycloakRealmName": "jhipetclinic",
+        "nodePackageManager": "npm"
+      }
     }
   ]
 }
