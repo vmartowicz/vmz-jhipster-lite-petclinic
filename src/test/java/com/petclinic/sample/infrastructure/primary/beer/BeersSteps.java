@@ -11,8 +11,7 @@ import java.util.Map;
 
 public class BeersSteps {
 
-  private static final String ADD_BEER_TEMPLATE =
-    """
+  private static final String ADD_BEER_TEMPLATE = """
     {
       "name": "{NAME}",
       "unitPrice": {UNIT_PRICE}
