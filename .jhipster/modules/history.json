@@ -2708,6 +2708,22 @@
         "keycloakRealmName": "jhipetclinic",
         "nodePackageManager": "npm"
       }
+    },
+    {
+      "module": "kipe-authorization",
+      "date": "2025-07-09T20:55:21.246123267Z",
+      "properties": {
+        "projectName": "jhipetclinic",
+        "baseName": "jhipetclinic",
+        "endOfLine": "lf",
+        "indentSize": 2,
+        "packageName": "com.petclinic",
+        "serverPort": 8080,
+        "springConfigurationFormat": "yaml",
+        "keycloakClientScopeName": "jhipetclinic",
+        "keycloakRealmName": "jhipetclinic",
+        "nodePackageManager": "npm"
+      }
     }
   ]
 }
