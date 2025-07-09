@@ -12,17 +12,23 @@ class EmailTest {
 
   @Test
   void shouldNotBuildWithoutEmail() {
-    assertThatThrownBy(() -> new Email(null)).isExactlyInstanceOf(MissingMandatoryValueException.class).hasMessageContaining("email");
+    assertThatThrownBy(() -> new Email(null))
+      .isExactlyInstanceOf(MissingMandatoryValueException.class)
+      .hasMessageContaining("email");
   }
 
   @Test
   void shouldNotBuildWithBlankEmail() {
-    assertThatThrownBy(() -> new Email(" ")).isExactlyInstanceOf(MissingMandatoryValueException.class).hasMessageContaining("email");
+    assertThatThrownBy(() -> new Email(" "))
+      .isExactlyInstanceOf(MissingMandatoryValueException.class)
+      .hasMessageContaining("email");
   }
 
   @Test
   void shouldNotBuildWithTooLongEmail() {
-    assertThatThrownBy(() -> new Email("a".repeat(256))).isExactlyInstanceOf(StringTooLongException.class).hasMessageContaining("email");
+    assertThatThrownBy(() -> new Email("a".repeat(256)))
+      .isExactlyInstanceOf(StringTooLongException.class)
+      .hasMessageContaining("email");
   }
 
   @Test

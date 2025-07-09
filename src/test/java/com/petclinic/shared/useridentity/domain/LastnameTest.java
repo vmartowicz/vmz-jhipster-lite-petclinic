@@ -14,12 +14,16 @@ class LastnameTest {
 
   @Test
   void shouldNotBuildWithoutLastname() {
-    assertThatThrownBy(() -> new Lastname(null)).isExactlyInstanceOf(MissingMandatoryValueException.class).hasMessageContaining("lastname");
+    assertThatThrownBy(() -> new Lastname(null))
+      .isExactlyInstanceOf(MissingMandatoryValueException.class)
+      .hasMessageContaining("lastname");
   }
 
   @Test
   void shouldNotBuildWithBlankLastname() {
-    assertThatThrownBy(() -> new Lastname(" ")).isExactlyInstanceOf(MissingMandatoryValueException.class).hasMessageContaining("lastname");
+    assertThatThrownBy(() -> new Lastname(" "))
+      .isExactlyInstanceOf(MissingMandatoryValueException.class)
+      .hasMessageContaining("lastname");
   }
 
   @Test
