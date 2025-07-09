@@ -75,6 +75,7 @@ management:
       probes:
         enabled: true
       show-details: always
+      access: read-only
   endpoints:
     web:
       base-path: /management
@@ -87,6 +88,11 @@ management:
           - logfile
           - loggers
           - threaddump
+    access:
+      default: none
+    jmx:
+      exposure:
+        exclude: '*'
   info:
     env:
       enabled: true
