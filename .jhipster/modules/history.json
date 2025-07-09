@@ -2820,6 +2820,22 @@
         "keycloakRealmName": "jhipetclinic",
         "nodePackageManager": "npm"
       }
+    },
+    {
+      "module": "sample-liquibase-changelog",
+      "date": "2025-07-09T20:55:34.997900038Z",
+      "properties": {
+        "projectName": "jhipetclinic",
+        "baseName": "jhipetclinic",
+        "endOfLine": "lf",
+        "indentSize": 2,
+        "packageName": "com.petclinic",
+        "serverPort": 8080,
+        "springConfigurationFormat": "yaml",
+        "keycloakClientScopeName": "jhipetclinic",
+        "keycloakRealmName": "jhipetclinic",
+        "nodePackageManager": "npm"
+      }
     }
   ]
 }
