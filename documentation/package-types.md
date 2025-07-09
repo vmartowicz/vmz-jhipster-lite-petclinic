@@ -8,15 +8,13 @@ This application comes with two package level annotations:
 To mark a package, you have to add a `package-info.java` file at the package root with:
 
 ```java
-@{{ basePackage }}.SharedKernel
+@com.petclinic.SharedKernel
 package com.petclinic;
-
 ```
 
 or:
 
 ```java
-@{{ basePackage }}.BusinessContext
+@com.petclinic.BusinessContext
 package com.petclinic;
-
 ```
