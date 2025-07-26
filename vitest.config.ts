@@ -33,7 +33,6 @@ export default defineConfig({
         ...(configDefaults.coverage.exclude as string[]),
         'src/main/webapp/app/main.ts',
         'src/main/webapp/app/injections.ts',
-        'src/main/webapp/app/router.ts',
         'src/main/webapp/**/*.component.ts',
       ],
       provider: 'istanbul',
