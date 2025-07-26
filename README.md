@@ -51,7 +51,6 @@ docker compose -f src/main/docker/keycloak.yml up -d
 - [Front hexagonal architecture](documentation/front-hexagonal-architecture.md)
 - [Package types](documentation/package-types.md)
 - [Assertions](documentation/assertions.md)
-- [sonar](documentation/sonar.md)
 - [Vue](documentation/vue.md)
 - [PostgreSQL](documentation/postgresql.md)
 - [Logs Spy](documentation/logs-spy.md)
