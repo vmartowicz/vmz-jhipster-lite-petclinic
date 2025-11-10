@@ -1,19 +1,20 @@
 package com.petclinic.owner.application;
 
 import com.petclinic.owner.domain.pettype.*;
+import java.util.Optional;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 @Service
 @Transactional
-public class OwnerApplicationService {
+public class PetTypesApplicationService {
 
   private final PetTypesRepository pettypes;
   private final PetTypesCreator creator;
   private final PetTypesRemover remover;
 
-  public OwnerApplicationService(PetTypesRepository petTypesRepository) {
+  public PetTypesApplicationService(PetTypesRepository petTypesRepository) {
     this.pettypes = petTypesRepository;
     creator = new PetTypesCreator(pettypes);
     remover = new PetTypesRemover(pettypes);
@@ -22,6 +23,11 @@ public class OwnerApplicationService {
   @Transactional(readOnly = true)
   public PetTypes findAllPetTypes() {
     return pettypes.findAll();
+  }
+
+  @Transactional(readOnly = true)
+  public Optional<PetType> find(PetTypeId petType) {
+    return pettypes.get(petType);
   }
 
   @Transactional

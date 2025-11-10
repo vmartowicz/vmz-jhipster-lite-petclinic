@@ -7,7 +7,7 @@ public class PetTypesCreator {
   private final PetTypesRepository pettypes;
 
   public PetTypesCreator(PetTypesRepository pettypes) {
-    Assert.notNull("beers", pettypes);
+    Assert.notNull("pettypes", pettypes);
 
     this.pettypes = pettypes;
   }

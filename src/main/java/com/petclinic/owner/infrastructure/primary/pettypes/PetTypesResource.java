@@ -1,6 +1,6 @@
 package com.petclinic.owner.infrastructure.primary.pettypes;
 
-import com.petclinic.owner.application.OwnerApplicationService;
+import com.petclinic.owner.application.PetTypesApplicationService;
 import com.petclinic.owner.domain.pettype.PetTypeId;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
@@ -16,9 +16,9 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/api/pet-types")
 class PetTypesResource {
 
-  private final OwnerApplicationService pettypes;
+  private final PetTypesApplicationService pettypes;
 
-  public PetTypesResource(OwnerApplicationService pettypes) {
+  public PetTypesResource(PetTypesApplicationService pettypes) {
     this.pettypes = pettypes;
   }
 
